@@ -33,10 +33,10 @@ public class TestMarch8th2018 {
     @Test
     public void testSimple() {
         // Given
-        int [] [] m = {{1,2}, {3,4}, {5,6}};
+        int [] [] m = {{1,2}, {3,4}};
 
         // Then
-        assertEquals("1\n2\n4\n6\n5\n3\n", Mar8th2018.unrollMatrix(m));
+        assertEquals("1\n2\n4\n3\n", Mar8th2018.unrollMatrix(m));
 
     }
 }
